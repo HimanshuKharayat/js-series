@@ -33,3 +33,30 @@ const myfunction = function(){
 console.log(typeof bigNumber);
 
 
+// +++++++++++++++++++++++++++++++++++
+// stack (primitive) means copy value 
+// heap (non - primitive) or reference means original value 
+
+// example  stack 
+
+let myoutube = "talkfootball" ; 
+
+let anotheryoutube = myoutube;
+anotheryoutube = "esportslive" ;
+
+
+console.log(myoutube);
+console.log(anotheryoutube);
+
+// example heap 
+let userOne = {
+    email : "kharayat@gmail",
+    uid : "kha@oksbi" 
+}
+
+let userTwo = userOne 
+userTwo.email = "him@gmail" ;
+
+console.log(userOne);
+console.log(userTwo) ;
+
