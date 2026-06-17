@@ -5,6 +5,7 @@ function saymyname(){
      console.log("u");
 }
 //saymyname() ;
+console.log(saymyname()) ;
 
 // function addtwonumbers(number1 , number2){ // (number1 , number2 ) parameters
 //     console.log(number1 + number2);
