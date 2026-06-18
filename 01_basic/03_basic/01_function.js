@@ -36,3 +36,10 @@ function addtwonumbers(number1 , number2){
 
  //console.log(loginusermessage("himu")) ;
   console.log(loginusermessage())
+
+
+  function calculatecartprice(num1){
+   return num1 ;
+
+  }
+  console.log(calculatecartprice(200,400,600)) ;
