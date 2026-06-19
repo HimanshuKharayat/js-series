@@ -1,4 +1,4 @@
-function saymyname(){
+  function saymyname(){
      console.log("h");
      console.log("i");
      console.log("m");
@@ -38,7 +38,7 @@ function addtwonumbers(number1 , number2){
   console.log(loginusermessage())
 
 
-  function calculatecartprice(num1){
+  function calculatecartprice(...num1){
    return num1 ;
 
   }
