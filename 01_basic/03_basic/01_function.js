@@ -38,8 +38,31 @@ function addtwonumbers(number1 , number2){
   console.log(loginusermessage())
 
 
-  function calculatecartprice(...num1){
+  function calculatecartprice(val1,val2,...num1){  // rest  operator or spread operator 
    return num1 ;
 
   }
   console.log(calculatecartprice(200,400,600)) ;
+
+  const user = {
+   username : "himu" ,
+   price : 199 
+  }
+  function handleobject(anyobject){
+   console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}` ) ;
+
+  }
+  // handleobject(user) ; 
+handleobject({
+   name : "himdon" ,
+   price : 399
+ })
+
+ // array 
+  const mynewarray = [100,200,239,400] ; 
+
+  function returnsecondvalur(getArray){
+   return getArray[1] 
+  }
+   //console.log(returnsecondvalur(mynewarray)) ;
+   console.log(returnsecondvalur([100,200,239,400])) ;
