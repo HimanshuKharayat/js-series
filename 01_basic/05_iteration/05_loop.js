@@ -1,4 +1,4 @@
-/ forEach loop
+// forEach loop
 
  const coding = ["css" , "java ", "python" , "js"] ;
 
@@ -40,9 +40,4 @@ mycoding.forEach( (item)=> {
      console.log(item.language)
 })
 
-
-mycoding.forEach( (item)=> {
-     console.log(item.throw new Error("item");
-     )
-})
 
